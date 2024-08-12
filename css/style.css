@@ -2,6 +2,9 @@ html,
 body {
   height: 100%;
 }
+img{
+  width: 100%;
+}
 @font-face {
   font-family: "Sunday Sport";
   src: url(/fonts/Sunday\ Sport.ttf);
@@ -9,15 +12,18 @@ body {
   font-style: bold;
 }
 
-
+.fondoVideo{
+  position: absolute;
+}
+/*
 .fondoConTitulo{
-  background-image: url("../img/bosqueClaro.jpeg");
+  
   background-size: cover;
-  height: 700px;
+  height: 1000px;
   
 
 }
-
+*/
 h1 {
  
   color: white;
