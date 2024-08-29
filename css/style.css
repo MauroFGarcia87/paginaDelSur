@@ -6,6 +6,7 @@
 html,
 body {
   height: 100%;
+  background-color: black;
 }
 img{
   width: 100%;
@@ -18,7 +19,7 @@ img{
 }
 
 h2{
-  color: black;
+  color: white;
   font-family: "DM Serif Display", serif;
   font-weight: 1000;
   font-style:normal;
