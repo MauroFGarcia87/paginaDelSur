@@ -1,3 +1,8 @@
+*{
+  margin: 0 px;
+  padding: 0 px;
+}
+
 html,
 body {
   height: 100%;
@@ -5,12 +10,43 @@ body {
 img{
   width: 100%;
 }
+
+.card-text-noBootStrap{
+  text-align: center;
+   
+  
+}
+
+h2{
+  color: black;
+  font-family: "DM Serif Display", serif;
+  font-weight: 1000;
+  font-style:normal;
+}
+
+.hidden {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: all 1.2s ease-out;
+}
+
+.mostrar {
+  transform: scale(1);
+  opacity: 1;
+  animation: lightSpeedInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  
+  
+}
+
 @font-face {
   font-family: "Sunday Sport";
   src: url(/fonts/Sunday\ Sport.ttf);
   font-weight: bold;
   font-style: bold;
 }
+
+
 
 .fondoVideo{
   position: absolute;
@@ -1474,3 +1510,11 @@ body {
     border-radius: 50%;
   }
 }
+
+
+
+
+
+
+
+
